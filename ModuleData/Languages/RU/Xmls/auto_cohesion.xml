@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="RU" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="Авто-сплоченность"/>
+    <string id="auto_cohesion_settings_group" text="Общие"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="Авто-пополнение сплоченности армии"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="Автоматически тратит влияние для поддержания полной сплоченности армии правителя."/>
+  </strings>
+</base>

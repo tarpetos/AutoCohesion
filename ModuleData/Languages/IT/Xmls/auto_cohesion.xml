@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="IT" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="Coesione Automatica"/>
+    <string id="auto_cohesion_settings_group" text="Generale"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="Ricarica automatica coesione dell'esercito"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="Spende automaticamente influenza per mantenere al massimo la coesione dell'esercito del sovrano."/>
+  </strings>
+</base>

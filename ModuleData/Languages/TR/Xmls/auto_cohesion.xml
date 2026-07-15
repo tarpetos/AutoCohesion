@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="TR" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="Otomatik Uyum"/>
+    <string id="auto_cohesion_settings_group" text="Genel"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="Ordu uyumunu otomatik doldur"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="Hükümdarın ordu uyumunu tam tutmak için otomatik olarak nüfuz harcar."/>
+  </strings>
+</base>

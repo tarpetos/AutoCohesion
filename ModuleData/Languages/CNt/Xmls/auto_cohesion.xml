@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="CNt" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="自動凝聚力"/>
+    <string id="auto_cohesion_settings_group" text="常規"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="自動補充軍團凝聚力"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="自動花費影響力以保持統治者的軍團凝聚力全滿。"/>
+  </strings>
+</base>

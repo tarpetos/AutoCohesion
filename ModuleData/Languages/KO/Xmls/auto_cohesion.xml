@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="KO" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="자동 결속력"/>
+    <string id="auto_cohesion_settings_group" text="일반"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="군대 결속력 자동 회복"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="통치자의 군대 결속력을 자동으로 영향력을 소비하여 가득 채웁니다."/>
+  </strings>
+</base>

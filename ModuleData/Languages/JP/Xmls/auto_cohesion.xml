@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="JP" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="自動結束力"/>
+    <string id="auto_cohesion_settings_group" text="一般"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="軍隊の結束力を自動回復"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="支配者の軍隊の結束力を自動的に影響力を消費して最大に保ちます。"/>
+  </strings>
+</base>

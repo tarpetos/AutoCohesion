@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+  <tags>
+    <tag language="PL" />
+  </tags>
+  <strings>
+    <string id="auto_cohesion_settings_name" text="Automatyczna Spójność"/>
+    <string id="auto_cohesion_settings_group" text="Ogólne"/>
+    <string id="auto_cohesion_settings_autorefill_name" text="Automatyczne odnawianie spójności armii"/>
+    <string id="auto_cohesion_settings_autorefill_hint" text="Automatycznie wydaje wpływy, aby utrzymać pełną spójność armii władcy."/>
+  </strings>
+</base>
