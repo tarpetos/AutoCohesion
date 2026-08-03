@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Polski"/>
+    <tag language="Polski" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Automatyczna Spójność"/>
-    <string id="auto_cohesion_settings_group" text="Ogólne"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Automatyczne odnawianie spójności armii"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Automatycznie wydaje wpływy, aby utrzymać pełną spójność armii władcy."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Automatyczna Spójność" />
+    <string id="auto_cohesion_settings_group" text="Ogólne" />
+    <string id="auto_cohesion_settings_mode_name" text="Tryb auto-uzupełniania" /><string id="auto_cohesion_settings_mode_hint" text="Wybierz, kiedy mod ma automatycznie uzupełniać spójność armii." /><string id="auto_cohesion_settings_mode_always" text="Zawsze uzupełniaj" /><string id="auto_cohesion_settings_mode_free" text="Uzupełniaj tylko jeśli za darmo" /><string id="auto_cohesion_settings_mode_never" text="Nie uzupełniaj" /></strings>
 </base>

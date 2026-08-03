@@ -1,6 +1,7 @@
 using MCM.Abstractions.Attributes;
 using MCM.Abstractions.Attributes.v2;
 using MCM.Abstractions.Base.Global;
+using MCM.Common;
 
 namespace AutoCohesion
 {
@@ -11,8 +12,13 @@ namespace AutoCohesion
         public override string FolderName => "AutoCohesion";
         public override string FormatType => "json2";
 
-        [SettingPropertyBool("{=auto_cohesion_settings_autorefill_name}Auto-refill army cohesion", Order = 1, RequireRestart = false, HintText = "{=auto_cohesion_settings_autorefill_hint}Automatically spends influence to keep the ruler's army cohesion full.")]
+        [SettingPropertyDropdown("{=auto_cohesion_settings_mode_name}Auto-refill mode", Order = 1, RequireRestart = false, HintText = "{=auto_cohesion_settings_mode_hint}Select when the mod should automatically refill army cohesion.")]
         [SettingPropertyGroup("{=auto_cohesion_settings_group}General")]
-        public bool AutoRefillCohesion { get; set; } = true;
+        public Dropdown<string> AutoRefillMode { get; set; } = new Dropdown<string>(new string[]
+        {
+            "{=auto_cohesion_settings_mode_always}Always refill",
+            "{=auto_cohesion_settings_mode_free}Only refill if free",
+            "{=auto_cohesion_settings_mode_never}Do not refill"
+        }, 0);
     }
 }

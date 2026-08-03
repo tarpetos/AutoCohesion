@@ -43,6 +43,17 @@ namespace AutoCohesion
                         int amountToBoost = 10;
                         int cost = Campaign.Current.Models.ArmyManagementCalculationModel.GetCohesionBoostInfluenceCost(army, amountToBoost);
                         
+                        int mode = 0;
+                        if (AutoCohesionSettings.Instance != null)
+                        {
+                            mode = AutoCohesionSettings.Instance.AutoRefillMode.SelectedIndex;
+                        }
+
+                        if (mode == 1 && cost > 0)
+                        {
+                            return; // Do not refill because it costs influence
+                        }
+
                         if (playerClan.Influence >= cost)
                         {
                             army.BoostCohesionWithInfluence(amountToBoost, cost);
@@ -61,7 +72,7 @@ namespace AutoCohesion
             {
                 if (AutoCohesionSettings.Instance != null)
                 {
-                    return AutoCohesionSettings.Instance.AutoRefillCohesion;
+                    return AutoCohesionSettings.Instance.AutoRefillMode.SelectedIndex != 2;
                 }
             }
             catch

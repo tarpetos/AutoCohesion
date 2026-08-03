@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Italiano"/>
+    <tag language="Italiano" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Coesione Automatica"/>
-    <string id="auto_cohesion_settings_group" text="Generale"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Ricarica automatica coesione dell'esercito"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Spende automaticamente influenza per mantenere al massimo la coesione dell'esercito del sovrano."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Coesione Automatica" />
+    <string id="auto_cohesion_settings_group" text="Generale" />
+    <string id="auto_cohesion_settings_mode_name" text="Modalità rifornimento automatico" /><string id="auto_cohesion_settings_mode_hint" text="Seleziona quando la mod dovrebbe rifornire automaticamente la coesione dell'esercito." /><string id="auto_cohesion_settings_mode_always" text="Rifornisci sempre" /><string id="auto_cohesion_settings_mode_free" text="Rifornisci solo se gratuito" /><string id="auto_cohesion_settings_mode_never" text="Non rifornire" /></strings>
 </base>

@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Español"/>
+    <tag language="Español" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Cohesión Automática"/>
-    <string id="auto_cohesion_settings_group" text="General"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Relleno automático de cohesión del ejército"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Gasta influencia automáticamente para mantener llena la cohesión del ejército del gobernante."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Cohesión Automática" />
+    <string id="auto_cohesion_settings_group" text="General" />
+    <string id="auto_cohesion_settings_mode_name" text="Modo de relleno automático" /><string id="auto_cohesion_settings_mode_hint" text="Selecciona cuándo el mod debería rellenar automáticamente la cohesión del ejército." /><string id="auto_cohesion_settings_mode_always" text="Siempre rellenar" /><string id="auto_cohesion_settings_mode_free" text="Solo rellenar si es gratis" /><string id="auto_cohesion_settings_mode_never" text="No rellenar" /></strings>
 </base>

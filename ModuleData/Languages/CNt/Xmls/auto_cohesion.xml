@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="繁體中文"/>
+    <tag language="繁體中文" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="自動凝聚力"/>
-    <string id="auto_cohesion_settings_group" text="常規"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="自動補充軍團凝聚力"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="自動花費影響力以保持統治者的軍團凝聚力全滿。"/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="自動凝聚力" />
+    <string id="auto_cohesion_settings_group" text="常規" />
+    <string id="auto_cohesion_settings_mode_name" text="自動補充模式" /><string id="auto_cohesion_settings_mode_hint" text="選擇該模組應在何時自動補充軍隊凝聚力。" /><string id="auto_cohesion_settings_mode_always" text="總是補充" /><string id="auto_cohesion_settings_mode_free" text="僅在免費時補充" /><string id="auto_cohesion_settings_mode_never" text="不補充" /></strings>
 </base>

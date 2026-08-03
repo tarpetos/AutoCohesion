@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="日本語"/>
+    <tag language="日本語" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="自動結束力"/>
-    <string id="auto_cohesion_settings_group" text="一般"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="軍隊の結束力を自動回復"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="支配者の軍隊の結束力を自動的に影響力を消費して最大に保ちます。"/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="自動結束力" />
+    <string id="auto_cohesion_settings_group" text="一般" />
+    <string id="auto_cohesion_settings_mode_name" text="自動補充モード" /><string id="auto_cohesion_settings_mode_hint" text="MODが軍の結束力を自動的に補充するタイミングを選択します。" /><string id="auto_cohesion_settings_mode_always" text="常に補充" /><string id="auto_cohesion_settings_mode_free" text="無料の場合のみ補充" /><string id="auto_cohesion_settings_mode_never" text="補充しない" /></strings>
 </base>

@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Français"/>
+    <tag language="Français" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Cohésion Auto"/>
-    <string id="auto_cohesion_settings_group" text="Général"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Remplissage auto. de la cohésion d'armée"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Dépense automatiquement de l'influence pour maintenir la cohésion de l'armée du dirigeant au maximum."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Cohésion Auto" />
+    <string id="auto_cohesion_settings_group" text="Général" />
+    <string id="auto_cohesion_settings_mode_name" text="Mode de ravitaillement auto" /><string id="auto_cohesion_settings_mode_hint" text="Sélectionnez quand le mod doit ravitailler automatiquement la cohésion de l'armée." /><string id="auto_cohesion_settings_mode_always" text="Toujours ravitailler" /><string id="auto_cohesion_settings_mode_free" text="Ne ravitailler que si gratuit" /><string id="auto_cohesion_settings_mode_never" text="Ne pas ravitailler" /></strings>
 </base>

@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="English"/>
+    <tag language="English" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Auto Cohesion"/>
-    <string id="auto_cohesion_settings_group" text="General"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Auto-refill army cohesion"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Automatically spends influence to keep the ruler's army cohesion full."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Auto Cohesion" />
+    <string id="auto_cohesion_settings_group" text="General" />
+    <string id="auto_cohesion_settings_mode_name" text="Auto-refill mode" /><string id="auto_cohesion_settings_mode_hint" text="Select when the mod should automatically refill army cohesion." /><string id="auto_cohesion_settings_mode_always" text="Always refill" /><string id="auto_cohesion_settings_mode_free" text="Only refill if free" /><string id="auto_cohesion_settings_mode_never" text="Do not refill" /></strings>
 </base>

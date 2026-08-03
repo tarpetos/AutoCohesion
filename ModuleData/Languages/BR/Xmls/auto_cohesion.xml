@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Português (BR)"/>
+    <tag language="Português (BR)" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Coesão Automática"/>
-    <string id="auto_cohesion_settings_group" text="Geral"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Reabastecimento automático de coesão do exército"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Gasta automaticamente influência para manter a coesão do exército do governante completa."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Coesão Automática" />
+    <string id="auto_cohesion_settings_group" text="Geral" />
+    <string id="auto_cohesion_settings_mode_name" text="Modo de reabastecimento automático" /><string id="auto_cohesion_settings_mode_hint" text="Selecione quando o mod deve reabastecer automaticamente a coesão do exército." /><string id="auto_cohesion_settings_mode_always" text="Sempre reabastecer" /><string id="auto_cohesion_settings_mode_free" text="Apenas reabastecer se for grátis" /><string id="auto_cohesion_settings_mode_never" text="Não reabastecer" /></strings>
 </base>

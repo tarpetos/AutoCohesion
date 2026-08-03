@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Türkçe"/>
+    <tag language="Türkçe" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Otomatik Uyum"/>
-    <string id="auto_cohesion_settings_group" text="Genel"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Ordu uyumunu otomatik doldur"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Hükümdarın ordu uyumunu tam tutmak için otomatik olarak nüfuz harcar."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Otomatik Uyum" />
+    <string id="auto_cohesion_settings_group" text="Genel" />
+    <string id="auto_cohesion_settings_mode_name" text="Otomatik doldurma modu" /><string id="auto_cohesion_settings_mode_hint" text="Modun ordu uyumunu ne zaman otomatik dolduracağını seçin." /><string id="auto_cohesion_settings_mode_always" text="Her zaman doldur" /><string id="auto_cohesion_settings_mode_free" text="Sadece ücretsizse doldur" /><string id="auto_cohesion_settings_mode_never" text="Doldurma" /></strings>
 </base>

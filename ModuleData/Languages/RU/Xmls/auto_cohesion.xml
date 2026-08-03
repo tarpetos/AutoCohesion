@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+<?xml version='1.0' encoding='utf-8'?>
+<base type="string">
   <tags>
-    <tag language="Русский"/>
+    <tag language="Русский" />
   </tags>
   <strings>
-    <string id="auto_cohesion_settings_name" text="Авто-сплоченность"/>
-    <string id="auto_cohesion_settings_group" text="Общие"/>
-    <string id="auto_cohesion_settings_autorefill_name" text="Авто-пополнение сплоченности армии"/>
-    <string id="auto_cohesion_settings_autorefill_hint" text="Автоматически тратит влияние для поддержания полной сплоченности армии правителя."/>
-  </strings>
+    <string id="auto_cohesion_settings_name" text="Авто-сплоченность" />
+    <string id="auto_cohesion_settings_group" text="Общие" />
+    <string id="auto_cohesion_settings_mode_name" text="Режим авто-пополнения" /><string id="auto_cohesion_settings_mode_hint" text="Выберите, когда мод должен автоматически пополнять сплоченность армии." /><string id="auto_cohesion_settings_mode_always" text="Всегда пополнять" /><string id="auto_cohesion_settings_mode_free" text="Пополнять только если бесплатно" /><string id="auto_cohesion_settings_mode_never" text="Не пополнять" /></strings>
 </base>
